@@ -45,6 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Fog of War\Examples\Scripts\TSClickToMove.cs" />
+     <Compile Include="Assets\Fog of War\Examples\Scripts\TSMoveWithMouse.cs" />
+     <Compile Include="Assets\Fog of War\FoW\BetterList.cs" />
+     <Compile Include="Assets\Fog of War\FoW\FOWEffect.cs" />
+     <Compile Include="Assets\Fog of War\FoW\FOWRenderers.cs" />
+     <Compile Include="Assets\Fog of War\FoW\FOWRevealer.cs" />
+     <Compile Include="Assets\Fog of War\FoW\FOWSystem.cs" />
      <Compile Include="Assets\Game\Resources\Scripts\Demo\Firstui.cs" />
      <Compile Include="Assets\Game\Resources\Scripts\Demo\Secondui.cs" />
      <Compile Include="Assets\Game\Resources\Scripts\Demo\WindowGridView.cs" />
@@ -791,14 +798,17 @@
      <None Include="Assets\Slua\Resources\module\some.txt" />
      <None Include="Assets\Slua\Resources\main.txt" />
      <None Include="Assets\Slua\Resources\circle\circle.txt" />
+     <None Include="Assets\Fog of War\Examples\Shaders\Untextured.shader" />
      <None Include="Assets\Game\Editor\TexturePackerImporter\SettingsTexturePackerImporter.txt" />
      <None Include="Assets\Slua\Resources\perf.txt" />
      <None Include="Assets\Game\Resources\config.txt" />
+     <None Include="Assets\Fog of War\FoW\FOW.shader" />
      <None Include="Assets\Slua\Resources\delegate.txt" />
      <None Include="Assets\Game\Models\CubeMap.shader" />
      <None Include="Assets\Slua\Resources\valuetype.txt" />
      <None Include="Assets\Slua\Resources\varobj.txt" />
      <None Include="Assets\Slua\Resources\custom.txt" />
+     <None Include="Assets\Fog of War\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity5.3.3/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
